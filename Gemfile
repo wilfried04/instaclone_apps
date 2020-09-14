@@ -17,7 +17,7 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'dotenv-rails'
-  gem 'letter_opener_web'
+  
 end
 
 group :development do
@@ -26,6 +26,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'letter_opener_web'
+  gem 'letter_opener'
 end
 
 group :test do
